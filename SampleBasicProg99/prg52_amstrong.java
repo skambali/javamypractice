@@ -21,7 +21,7 @@ public class prg52_amstrong {
     	number=number/10;
     	
    }
-    
+     
     if (temp==c){
     	 System.out.println("number is an Armstrong:" +temp);
 

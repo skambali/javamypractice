@@ -18,7 +18,7 @@ public class prg51_palindrome {
 			reverse=reverse*10+reminder;
 			number=number/10;
 		 	
-		}
+		} 
 		
 		if (temp==reverse){
 			System.out.println("its a Palindrome:"+temp);

@@ -26,7 +26,7 @@ public static void main(String[] args) {
 	    	n=n/10;
 	    	
 	   }
-	    if (c==i){
+	    if (c==i){ 
 	 System.out.println(i+" ");
 }
 	    c=0;
