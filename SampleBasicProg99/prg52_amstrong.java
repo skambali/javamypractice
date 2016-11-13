@@ -8,28 +8,31 @@ public class prg52_amstrong {
 		// TODO Auto-generated method stub
 		
 		Scanner sc= new Scanner(System.in);
-		int a,b;
+		int a;
 		
 		int c=0;
 		System.out.println("enter the number to check its Armstrongs:");
 		int number=sc.nextInt();
 		int	temp=number;
-    while (number!=0){
+    while (number!=0)
+    {
 	
     	a=number%10;//get last digit
     	    	c=c+(a*a*a);//armstrong logic
     	number=number/10;
     	
    }
-     
-    if (temp==c){
+    
+    if (temp==c)
+    {
     	 System.out.println("number is an Armstrong:" +temp);
 
-    }else{
+    }else
+    {
     	
     	System.out.println("number is Not an Armstrong:" +temp);
     }
-    
+    sc.close();
 
 	}
 
