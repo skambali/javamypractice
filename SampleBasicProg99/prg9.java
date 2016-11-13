@@ -14,7 +14,7 @@ public class prg9 {
 		int carry;
 		while (b!=0)
 		{
-			carry=a&b;
+			carry=a&b;//
 			a=a^b;
 			b=carry<<1;
 		}
