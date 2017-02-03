@@ -1,0 +1,11 @@
+<suite name="Test-method Suite" parallel="methods" thread-count="2" >
+  <test name="Test-method test" group-by-instances="true">
+    <classes>
+     <!--  <class name="Selinum.beforeTestng" /> -->
+     <!--    <class name="Selinum.TestNG" /> -->
+ 
+ <class name="Selinum.runningAllTest" />
+   
+    </classes>
+  </test>
+</suite>

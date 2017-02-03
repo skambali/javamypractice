@@ -15,16 +15,10 @@ public class prg42_primerNumberRange {
 				int count =0;
 				for(int i=n;i<=y;i++){
 					for(int j=2;j<=i;j++){
-						if(i==j){
-							System.out.println("Number is Primer Number--"+i);
-							count++;
-						}
-						//Mod of same number is zero
 						if(i%j==0){
 							break;
 						}
-						
-					}
+						 
 				}
 				
 				count=count+1;
@@ -33,6 +27,6 @@ public class prg42_primerNumberRange {
 				
 			}
 
-	}
+			}}
 
 

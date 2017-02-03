@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="54" started-at="2016-12-13T11:25:29Z" finished-at="2016-12-13T11:25:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="54" started-at="2016-12-13T11:25:29Z" finished-at="2016-12-13T11:25:29Z">
+      <class name="Selinum.beforeTestng">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Selinum.beforeTestng@6f45abe3]" name="beforeMethod" is-config="true" duration-ms="6" started-at="2016-12-13T16:55:29Z" finished-at="2016-12-13T16:55:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMethodsTwo()[pri:0, instance:Selinum.beforeTestng@6f45abe3]" name="testMethodsTwo" duration-ms="5" started-at="2016-12-13T16:55:29Z" finished-at="2016-12-13T16:55:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodsTwo -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Selinum.beforeTestng@6f45abe3]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-12-13T16:55:29Z" finished-at="2016-12-13T16:55:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Selinum.beforeTestng@6f45abe3]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-13T16:55:29Z" finished-at="2016-12-13T16:55:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMethodsOne()[pri:0, instance:Selinum.beforeTestng@6f45abe3]" name="testMethodsOne" duration-ms="3" started-at="2016-12-13T16:55:29Z" finished-at="2016-12-13T16:55:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodsOne -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Selinum.beforeTestng@6f45abe3]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-12-13T16:55:29Z" finished-at="2016-12-13T16:55:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="test()[pri:0, instance:Selinum.beforeTestng@6f45abe3]" name="test" duration-ms="2" started-at="2016-12-13T16:55:29Z" depends-on-methods="Selinum.beforeTestng.testMethodsTwo" finished-at="2016-12-13T16:55:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Selinum.beforeTestng@6f45abe3]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-13T16:55:29Z" finished-at="2016-12-13T16:55:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Selinum.beforeTestng@6f45abe3]" name="afterMethod" is-config="true" duration-ms="1" started-at="2016-12-13T16:55:29Z" finished-at="2016-12-13T16:55:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Selinum.beforeTestng -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

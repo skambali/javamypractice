@@ -14,10 +14,10 @@ public class prg6 {
 		int b=sc.nextInt();
 		
 		System.out.println("values of a and b before swapping are:"+a+"\t"+b);
-		
-		a=a+b;
-		b=a-b;
-		a=a-b;
+		// 5 10
+		a=a+b;//15
+		b=a-b;//15-10=5
+		a=a-b;//15-5=10
 		System.out.println("values of a and b after swapping are:"+a+"\t"+b);
 		sc.close();
 		
